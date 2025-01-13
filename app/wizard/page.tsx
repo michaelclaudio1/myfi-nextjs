@@ -2,6 +2,7 @@
 
 import { CurrencyComboBox } from "@/components/CurrencyComboBox";
 import Logo from "@/components/Logo";
+// import PlaidLink from "@/components/plaidLink";
 import { Button } from "@/components/ui/button";
 import {
   Card,
@@ -44,9 +45,12 @@ async function page() {
           <CardTitle>Link Account</CardTitle>
           <CardDescription>Connections are handled with Plaid</CardDescription>
           <CardContent>
-            <h1>THIS IS WHERE THE PLAID LINK COMPONENT GOES</h1>
-            <h1>REPLACE THE BUTTON BELOW WITH LINK COMPONENT</h1>
+            <h1>
+              REMOVE THE CURRENCY BOX ONCE DATABASE IS UPDATED TO WORK WITHOUT
+              IT
+            </h1>
             <CurrencyComboBox />
+            {/* <PlaidLink user={user} variant="primary" /> */}
           </CardContent>
         </CardHeader>
       </Card>

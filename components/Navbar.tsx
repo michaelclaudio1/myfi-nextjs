@@ -27,6 +27,7 @@ const items = [
   { label: "Transactions", link: "/transactions" },
   { label: "Manage", link: "/manage" },
   { label: "Settings", link: "/settings" },
+  { label: "TEMP PLAID TEST", link: "/temp-test" },
 ];
 
 function DesktopNavbar() {

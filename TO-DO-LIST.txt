@@ -1,10 +1,10 @@
 TO DO LIST:
- - create a sample landing page, add CSS to this later, this is needed just for landing and the middleware
  - Incorporate Plaid
  - update the wizard page to incorporate Plaid
  - store Plaid information somehow, then generate financial data once user is logged in.
 
 BUG LIST: 
+ - [ONLY ON VERCEL]: when opening the page after already being signed in, the page won't redirect from /sign-in to /dashboard, but to / instead
  - Fix light mode CSS (just doesn't look good, probably an easy way to do this with Tailwind)
  - some issues with adding something new (an income or expense) and reloading the page to immediately show the addition
     - It appears that the issue is only when something new (an income or expense) is added for today, any other time it works correctly
