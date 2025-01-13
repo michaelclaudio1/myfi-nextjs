@@ -4,7 +4,6 @@ TO DO LIST:
  - store Plaid information somehow, then generate financial data once user is logged in.
 
 BUG LIST: 
- - Sign out not currently redirecting to the sign-in page
  - Fix light mode CSS (just doesn't look good, probably an easy way to do this with Tailwind)
  - some issues with adding something new (an income or expense) and reloading the page to immediately show the addition
     - It appears that the issue is only when something new (an income or expense) is added for today, any other time it works correctly
@@ -16,3 +15,4 @@ WISH LIST:
   * but would enhance UX.
  - Root opening page, where users don't have to be signed in to see what the website is about
  - Automatically change DBs when working locally or on production
+ - When a user deletes a income or expense category, move whatever transactions were a part of those categories into a "miscellaneous" category
